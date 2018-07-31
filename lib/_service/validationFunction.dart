@@ -19,7 +19,7 @@ String validateEmail(String value) {
   
   // final RegExp phoneExp = new RegExp(r'/^[0-9]*$/');
   if (value.isEmpty) {
-    return '이메일은 필수입니다.';
+    return '이메일은 필수입니다.!';
   }
   if (!value.contains('@')) {
     return "유효하지 않은 이메일 주소입니다.";
